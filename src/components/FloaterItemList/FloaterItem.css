@@ -1,0 +1,51 @@
+.floaterItem{
+    position: relative;
+    display: inline-block;
+    max-width: 250px;
+    padding: 0 10px;
+}
+
+.floaterImage {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.floaterItemText{
+    position: absolute;
+    left: 20px;
+    bottom: 8px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.floaterViewWrapper{
+    margin: 20px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+
+.floaterViewWrapper .floaterImage{
+    border-radius: 0;
+}
+.floaterViewWrapper .itemDetails{
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+.floaterItemListView{
+    position: relative;
+}
+
+.totalPrice , .itemDetails .floaterItemText {
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    color: black;
+    margin: 20px 0 0 0;
+    left: 0;
+    bottom: 0;
+}
+.itemLocality{
+ margin: 4px 0 10px 0;
+}

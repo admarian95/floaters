@@ -1,0 +1,7 @@
+.floaterImageWrapper{
+    display: block;
+    overflow: auto;
+    white-space: nowrap;
+    position: fixed;
+    bottom: 65px;
+}
